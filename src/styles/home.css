@@ -1,0 +1,18 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vmin;
+}
+
+.card-container>div {
+    flex: 1 1 calc(50% - 2vmin);
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .card-container>div {
+        flex: 1 1 100%;
+        max-width: none;
+    }
+}
