@@ -14,3 +14,8 @@
 .navbar-right .p-menuitem {
     margin: 0 0.5rem;
 }
+
+.navbar-menu{
+    border-radius: 0;
+    border: 0;
+}

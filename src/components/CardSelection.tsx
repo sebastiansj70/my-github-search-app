@@ -17,7 +17,7 @@ const CardSelection: React.FC<CardSelectionProps> = ({ title, description, onCli
             <Card
                 title={title}
                 className="card-content"
-                style={{ background: currentTheme.backgroundHeader, color: currentTheme.color }}
+                style={{ background: currentTheme.backgroundCard, color: currentTheme.color }}
             >
                 <p className="m-0" style={{ color: currentTheme.color }}>
                     {description}

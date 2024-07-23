@@ -11,6 +11,8 @@ export interface Theme {
 	backgroundHeader: string;
 	backgroundButton: string;
 	colorTextButton: string;
+    backgroundCard: string;
+    backgroundFooter: string;
 }
 
 export interface ThemeContextProps {

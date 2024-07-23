@@ -3,6 +3,7 @@ import { Menubar } from 'primereact/menubar';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../hooks/useTheme.hook';
 import ThemeSwitcher from './ThemeSwitcher';
+import '../styles/navbar.css'
 
 interface MenuItem {
     label: string;
@@ -20,7 +21,7 @@ function Navbar() {
             label: 'Home',
             icon: 'pi pi-home',
             template: (item: MenuItem) => (
-                <Link to="/" className="p-menuitem-link" style={{ color: currentTheme.color }}>
+                <Link to="/" className="p-menuitem-link" style={{ color: currentTheme.titleColor }}>
                     <i className={item.icon}></i>
                     {item.label}
                 </Link>
@@ -51,7 +52,8 @@ function Navbar() {
     return <Menubar
         model={leftItems as any}
         end={endTemplate}
-        style={{ background: currentTheme.background, color: currentTheme.color }}
+        style={{ background: currentTheme.backgroundHeader, color: currentTheme.titleColor }}
+        className='navbar-menu'
     />
 }
 

@@ -11,12 +11,12 @@ const ThemeSwitcher: React.FC = () => {
     };
 
     return (
-        <div className="theme-switcher" style={{ background: currentTheme.background }}>
+        <div className="theme-switcher" style={{ background: currentTheme.backgroundHeader }}>
             <InputSwitch
                 checked={currentTheme.theme === 'light' ? true : false}
                 onChange={() => handleThemeChange()}
             />
-            <span style={{ color: currentTheme.color }}
+            <span style={{ color: currentTheme.titleColor }}
             >{currentTheme.theme === 'light' ? 'Dark Mode' : 'Light Mode'}</span>
         </div>
     );

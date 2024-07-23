@@ -8,24 +8,29 @@ const theme = {
 		backgroundTabBar: '#e9ecef',
 		primary: '#7d5fff',
 		warning: '#f0d500',
-		titleColor: '#212529',
-		backgroundHeader: '#212529',
+		titleColor: 'white',
+		backgroundHeader: '#C70039',
 		backgroundButton: '#212529',
-		colorTextButton: '#e9ecef'
+		colorTextButton: '#e9ecef',
+        backgroundCard: '#F0F3F4',
+        backgroundFooter: '#C70039',
 	},
 	dark: {
 		theme: 'dark',
-		color: '#e9ecef',
-		background: '#303030',
+		color: 'white',
+		background: '#18191a',
 		icon: '#dee2e6',
 		iconOutline: '#dee2e6',
 		backgroundTabBar: '#121212',
 		primary: '#7d5fff',
 		warning: '#f0d500',
-		titleColor: '#FFC500',
-		backgroundHeader: '#121212',
+		titleColor: 'white',
+		backgroundHeader: '#242526',
 		backgroundButton: '#121212',
-		colorTextButton: '#e9ecef'
+		colorTextButton: '#e9ecef',
+        backgroundCard: '#242526',
+        backgroundFooter: '#242526',
+
 	}
 }
 
