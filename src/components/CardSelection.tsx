@@ -10,7 +10,7 @@ interface CardSelectionProps {
 }
 
 const CardSelection: React.FC<CardSelectionProps> = ({ title, description, onClick }) => {
-    const { toggleTheme, currentTheme } = useTheme();
+    const { currentTheme } = useTheme();
 
     return (
         <div className="card" onClick={onClick}>

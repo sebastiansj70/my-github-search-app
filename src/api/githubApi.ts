@@ -16,3 +16,8 @@ export const fetchGithubRepos = async (query: string) => {
     const response = await axios.get(`${BASE_URL}/search/repositories?q=${query}`);
     return response.data.items;
 };
+
+export const fetchGithubAllRepos = async () => {
+    const response = await axios.get(`${BASE_URL}/repositories`);
+    return response.data;
+};

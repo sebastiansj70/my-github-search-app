@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card } from 'primereact/card';
 import { Avatar } from 'primereact/avatar';
-import '../styles/userCard.css'
+import '../styles/CustomCard.css'
 import { useTheme } from '../hooks/useTheme.hook';
 
-interface UserCardProps {
+interface CustomCardProps {
     avatarUrl: string;
     name: string;
     username: string;
@@ -15,7 +15,7 @@ interface UserCardProps {
 }
 
 
-const UserCard: React.FC<UserCardProps> = ({ avatarUrl, name, username, bio, followers, following, repositories }) => {
+const CustomCard: React.FC<CustomCardProps> = ({ avatarUrl, name, username, bio, followers, following, repositories }) => {
     const { currentTheme } = useTheme();
 
     return (
@@ -43,4 +43,4 @@ const UserCard: React.FC<UserCardProps> = ({ avatarUrl, name, username, bio, fol
     );
 };
 
-export default UserCard
+export default CustomCard

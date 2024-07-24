@@ -5,11 +5,11 @@ import { useTheme } from '../hooks/useTheme.hook';
 import { useNavigate } from 'react-router-dom';
 
 const Home: React.FC = () => {
-    const { toggleTheme, currentTheme } = useTheme();
+    const { currentTheme } = useTheme();
     const navigate = useNavigate();
 
     return (
-        <div className="home-container" style={{ background: currentTheme.background }}>
+        <div className="home-container" style={{ background: currentTheme.background, color: currentTheme.color }}>
             <h1>Bienvenido!</h1>
             <div className="card-container" style={{
                 display: 'flex', justifyContent: 'center', gap: '2vmin'
