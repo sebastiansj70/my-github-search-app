@@ -2,7 +2,7 @@ const theme = {
 	light: {
 		theme: 'light',
 		color: 'black',
-		background: 'white',
+		background: '#f3f4f6',
 		icon: '#212529',
 		iconOutline: '#212529',
 		backgroundTabBar: '#e9ecef',
@@ -12,7 +12,7 @@ const theme = {
 		backgroundHeader: '#345e37',
 		backgroundButton: '#345e37',
 		colorTextButton: '#e9ecef',
-        backgroundCard: '#F0F3F4',
+        backgroundCard: '#fff',
         backgroundFooter: '#345e37',
 	},
 	dark: {
