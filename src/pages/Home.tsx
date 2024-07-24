@@ -10,7 +10,7 @@ const Home: React.FC = () => {
 
     return (
         <div className="home-container" style={{ background: currentTheme.background }}>
-            <h1>Home</h1>
+            <h1>Bienvenido!</h1>
             <div className="card-container" style={{
                 display: 'flex', justifyContent: 'center', gap: '2vmin'
             }}>
