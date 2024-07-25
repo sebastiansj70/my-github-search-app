@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from 'primereact/card';
 import { useTheme } from '../hooks/useTheme.hook';
-import '../styles/cardSelection.css'
+import '../styles/cardSelection.css';
 
 interface CardSelectionProps {
     title: string;
