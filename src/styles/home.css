@@ -1,0 +1,28 @@
+.home-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    min-height: 95vh;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2vmin;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-container>div {
+    flex: 1 1 calc(50% - 2vmin);
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .card-container>div {
+        flex: 1 1 100%;
+        max-width: none;
+    }
+}

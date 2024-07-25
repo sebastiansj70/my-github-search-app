@@ -1,0 +1,9 @@
+.theme-switcher {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.p-inputswitch-input:checked ~ .p-inputswitch-slider {
+    background-color: #000; 
+}

@@ -1,0 +1,21 @@
+.menubar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left .p-menuitem,
+.navbar-right .p-menuitem {
+    margin: 0 0.5rem;
+}
+
+.navbar-menu{
+    border-radius: 0;
+    border: 0;
+}
